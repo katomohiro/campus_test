@@ -85,4 +85,36 @@ div#footer_inner p {
     font-size: 12px;
 }
 
-/* ---------header-------- */
+/* ---------main-------- */
+div#main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+div#article_wrap {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+div#article_list {
+    width: 660px;
+    float: left;
+}
+
+div#article_list div {
+    padding: 20px 0;
+    border-bottom: 1px solid #7d7d7d;
+}
+/* ---------sidebar-------- */
+div#sidebar {
+    width: 300px;
+    float: right;
+}
+
+div#sidebar h2 {
+    margin: 20px 0;
+}
+
+div#sidebar ul li {
+    list-style-type: none;
+}
