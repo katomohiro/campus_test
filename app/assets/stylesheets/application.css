@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,3 +14,74 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #161616;
+    font-family: "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* ---------header-------- */
+header {
+    width: 1000px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+p#logo {
+    font-size: 24px;
+    font-weight: 100;
+    float: left;
+}
+
+p#logo a span {
+    font-weight: bold;
+    color: #00a9a2;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* ---------footer-------- */
+footer {
+    padding: 20px 0;
+    background-color: #161616;
+}
+
+div#footer_inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div#footer_inner p {
+    color: #FFF;
+    font-size: 12px;
+}
+
+/* ---------header-------- */
